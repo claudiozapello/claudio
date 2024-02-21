@@ -1,0 +1,17 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");{ 
+    
+     String nome;
+     String sobrenome = "Zapello";
+     int idade = 33;
+     double altura = 1.75;
+     double peso = 85.22;
+     boolean temCarteiraDeMotorista = true;
+     boolean temCarteiraDeTrabalho = true;
+     String municipio;
+     char genero = 'M';
+     short cep = 85601-010;
+        }
+    }
+     
