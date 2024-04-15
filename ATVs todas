@@ -1,0 +1,1381 @@
+*Abaixo, você encontrará algumas instruções seguidas por espaços reservados para variáveis. Sua tarefa é identificar o tipo de dado apropriado para cada variável e declará-las corretamente em Java.**
+    1. Nome do Aluno: [Declare uma variável para armazenar o nome do aluno]
+        - Idade do Aluno: [Declare uma variável para armazenar a idade do aluno]
+        - Nota da Prova 1: [Declare uma variável para armazenar a nota da primeira prova]
+        - Nota da Prova 2: [Declare uma variável para armazenar a nota da segunda prova]
+        - Média Final: [Declare uma variável para armazenar a média final das notas]
+    - RESOLUÇÃO
+        
+        ```jsx
+        Nome do Aluno: String nomeAluno;
+        Idade do Aluno: int idadeAluno;
+        Nota da Prova 1: float notaPrimeirsProva
+        Nota da Prova 2: float notaSegundaProva;
+        Média Final: double mediaFinal;
+
+Certifique-se de escolher os tipos de dados apropriados para cada variável com base no que será armazenado. Lembre-se de que em Java, os tipos de dados podem incluir inteiros, decimais, texto e assim por diante.
+
+- **Você foi contratado para desenvolver um programa simples em Java para gerenciar o estoque de uma loja de conveniência. A loja vende uma variedade de produtos, incluindo alimentos, bebidas e produtos de higiene. Seu objetivo é criar um sistema para acompanhar a quantidade de cada produto em estoque.**
+    
+    **Tarefas:**
+    
+    1. Identifique os diferentes tipos de informações que precisamos armazenar para cada produto.
+    2. Declare as variáveis necessárias para representar essas informações.
+    3. Considere os tipos de dados apropriados para cada variável.
+    
+    **Informações a serem armazenadas para cada produto:**
+    
+    - Nome do produto
+    - Categoria do produto (ex: alimentos, bebidas, higiene)
+    - Preço unitário do produto
+    - Quantidade em estoque do produto
+    
+    Sua tarefa é identificar e declarar as variáveis necessárias para representar essas informações. Escreva as declarações de variáveis dentro do escopo a seguir:
+    
+    ```java
+    
+    public class ControleEstoque {
+        public static void main(String[] args) {
+            // Declaração das variáveis aqui
+    
+        }
+    }
+    
+    ```
+    
+    Lembre-se de escolher nomes significativos para suas variáveis e utilizar os tipos de dados apropriados para cada informação.
+    
+    Após declarar as variáveis, você pode pensar em como utilizar essas variáveis em operações futuras, como adicionar ou remover itens do estoque.
+    
+- RESOLUÇÃO
+    
+    ```jsx
+    public class ControleEstoque {
+        public static void main(String[] args) {
+            String nomeProduto;
+    				String categoriaProduto;
+    				float precoUnitario;
+    				int quantidadeEstoque;
+    
+        }
+    }
+    ```
+    
+- **Vamos praticar a criação de variáveis, inicialização e exibição dos dados em Java! Abaixo está um contexto onde você precisará criar variáveis para representar informações sobre produtos em um estoque, inicializá-las com valores específicos e, em seguida, exibir esses dados.**
+    
+    **Contexto:**
+    Você está desenvolvendo um programa de controle de estoque para uma loja de eletrônicos. A loja possui diversos produtos em estoque, e você precisa criar variáveis para armazenar informações sobre alguns desses produtos.
+    
+    **Tarefas:**
+    
+    1. Declare as variáveis necessárias para representar informações sobre os seguintes produtos:
+        - Smartphone
+        - Laptop
+        - Fone de Ouvido Bluetooth
+    2. Inicialize cada variável com valores específicos para representar os seguintes dados:
+        - Nome do produto
+        - Marca do produto
+        - Preço do produto
+        - Quantidade em estoque
+    3. Após a inicialização, exiba os dados de cada produto no console, como por exemplo 
+    
+    ```java
+    System.out.println("Dados do Smartphone:");
+    System.out.println("Nome: " + nomeSmartphone);
+    ```
+    
+- RESOLUÇÃO
+    
+    ```jsx
+    public class ControleEstoque {
+        public static void main(String[] args) {
+            
+            String nomeSmartphone = "Galaxy S22";
+            String marcaSmartphone = "Samsung";
+            double precoSmartphone = 2599.99;
+            int quantidadeEstoqueSmartphone = 50;
+    
+            String nomeLaptop = "Vivobook 15";
+            String marcaLaptop = "Asus";
+            double precoLaptop = 3499.99;
+            int quantidadeEstoqueLaptop = 20;
+    
+            String nomeFoneBluetooth = "AirPods Pro";
+            String marcaFoneBluetooth = "Apple";
+            double precoFoneBluetooth = 599.99;
+            int quantidadeEstoqueFoneBluetooth = 30;
+    
+            System.out.println("Informacoes sobre o Smartphone:");
+            System.out.println("Nome: " + nomeSmartphone);
+            System.out.println("Marca: " + marcaSmartphone);
+            System.out.println("Preco: R$ " + precoSmartphone);
+            System.out.println("Quantidade em estoque: " + quantidadeEstoqueSmartphone);
+            System.out.println();
+    
+            System.out.println("Informacoes sobre o Laptop:");
+            System.out.println("Nome: " + nomeLaptop);
+            System.out.println("Marca: " + marcaLaptop);
+            System.out.println("Preco: R$ " + precoLaptop);
+            System.out.println("Quantidade em estoque: " + quantidadeEstoqueLaptop);
+            System.out.println();
+    
+            System.out.println("Informacoes sobre o Fone de Ouvido Bluetooth:");
+            System.out.println("Nome: " + nomeFoneBluetooth);
+            System.out.println("Marca: " + marcaFoneBluetooth);
+            System.out.println("Preco: R$ " + precoFoneBluetooth);
+            System.out.println("Quantidade em estoque: " + quantidadeEstoqueFoneBluetooth);
+        }
+    }
+    ```
+    
+- **Ajuste o código abaixo**
+    
+    ```java
+    public class Main {
+        public static void main(String[] args) {
+           
+            int numeroProduto = "ABC123"; 
+            double precoProduto = 25; 
+            
+            String descricaoProduto;
+            
+            System.out.println("Descrição do Produto: " + descricaoProduto);
+            
+            descricaoProduto = "Fone de ouvido Bluetooth"
+            
+            System.out.println("Dados do Produto:");
+            System.out.println("Número: " + numroProduto);
+            System.out.println("Preço: $" + precoProduto);
+            System.out.println("Descrição: " + descricaoProduto);
+        }
+    }
+    ```
+    
+- RESOLUÇÃO
+    
+    ```jsx
+    public class Main {
+        public static void main(String[] args) {
+           
+            int numeroProduto = 123; 
+            double precoProduto = 25.99; 
+            String descricaoProduto ;
+    
+    				descricaoProduto = "Fone de ouvido Bluetooth";
+                     
+            System.out.println("Dados do Produto:");
+            System.out.println("Numero: " + numeroProduto);
+            System.out.println("Preco: $" + precoProduto);
+            System.out.println("Descricao: " + descricaoProduto);
+        }
+    }
+    ```
+    
+- **Copiei o código abaixo e encontre e ajuste todos os problemas que existem nele:**
+    
+    ```java
+    public class ControleEstoque {
+        public static void main(String[] args) {
+         
+            String nomeProduto;
+            double precoProduto;
+            int quantidadeProduto;
+            
+            nomeProduto = 12345;
+            precoProduto = "29.99";
+            quantidadeProduto = "10";
+           
+            String marcaProduto;
+            marcaProduto = true;
+    
+            String 1nomeProduto = "Fone de Ouvido";
+            double preçoProduto = 29,99;
+            
+            System.out.println("Dados do Produto":);
+            System.out.println("Nome: " + nomeProduto)
+            System.out.println("Marca: " + marcaProduto);
+            System.out.println("Preço: $" + precoProduto);
+            System.out.println("Quantidade em estoque: " + quantidadeProduto);
+        }
+    }
+    ```
+    
+    ```jsx
+    
+    ```
+    
+    ## ATIVIDADES COMPLEMENTAR
+    
+    Faça a leitura dos dois primeiros capitulos do livro clean code e liste os principais pontos que acha importante dividir com a turma na proxima aula.
+    
+    
+    
+- RESOLUÇÃO
+    
+    ```jsx
+    public class ControleEstoque {
+        public static void main(String[] args) {
+         
+            String nomeProduto;
+            double precoProduto;
+            int quantidadeProduto;
+    				String marcaProduto;
+            
+            nomeProduto = "Fone de Ouvido";
+            precoProduto = 29.99;
+            quantidadeProduto = 10;
+            marcaProduto = "Samsung";
+                 
+            System.out.println("Dados do Produto:");
+            System.out.println("Nome: " + nomeProduto)
+            System.out.println("Marca: " + marcaProduto);
+            System.out.println("Preco: $" + precoProduto);
+            System.out.println("Quantidade em estoque: " + quantidadeProduto);
+        }
+    }
+
+
+ATIVIDADE 02 - SCANNER
+
+ENCONTRE O PROBLEMA E MOSTRE COMO AJUSTAR
+
+```java
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        String nome = "";
+        int idade = 0;
+        double peso = 0.0;
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Informe seus dados:  ");
+        idade = scanner.nextInt();
+        peso = scanner.nextDouble();
+        nome = scanner.nextLine();
+        
+        scanner.close();
+        
+        System.out.println("Nome "+ nome);
+        System.out.println("idade "+ idade);
+        System.out.println("peso "+ peso);
+    }
+}
+```
+
+O problema está na forma como você está lendo a entrada do nome do usuário. Ao utilizar **`scanner.nextLine()`**, o programa pode pular essa entrada, pois o **`nextInt()`** e **`nextDouble()`** não consomem a quebra de linha após a entrada numérica.
+
+- Para corrigir isso, você pode adicionar um **`scanner.nextLine()`** adicional após a leitura da idade para consumir a quebra de linha pendente antes de ler o nome. Aqui está uma versão corrigida do seu código:
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    class HelloWorld {
+        public static void main(String[] args) {
+            
+            String nome = "";
+            int idade = 0;
+            double peso = 0.0;
+            
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.println("Informe seus dados:  ");
+            idade = scanner.nextInt();
+            peso = scanner.nextDouble();
+            
+            scanner.nextLine();
+            
+            nome = scanner.nextLine();
+            
+            scanner.close();
+            
+            System.out.println("Nome: " + nome);
+            System.out.println("Idade: " + idade);
+            System.out.println("Peso: " + peso);
+        }
+    }
+    
+
+ATIVIDADE 03 - ENTRADA/PROCESSAMENTO/SAIDA
+
+1.Faça um sistema que peça 3 valores some os 3 e mostre o total; 
+
+- resolução
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class SomaTresValores {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.println("Digite o primeiro valor:");
+            int valor1 = scanner.nextInt();
+            
+            System.out.println("Digite o segundo valor:");
+            int valor2 = scanner.nextInt();
+            
+            System.out.println("Digite o terceiro valor:");
+            int valor3 = scanner.nextInt();
+            
+            int total = valor1 + valor2 + valor3;
+            
+            System.out.println("A soma dos tres valores eh: " + total);
+            
+            scanner.close();
+        }
+    }
+    ```
+    
+
+2.Faça um sistema que peça 2 valores e faça uma subtração.
+
+- resolução
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class SubtracaoValores {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.println("Digite o valor principal:");
+            int valor1 = scanner.nextInt();
+            
+            System.out.println("Digite o valor para subtrair:");
+            int valor2 = scanner.nextInt();
+            
+            int resultado = valor1 - valor2;
+            
+            System.out.println("O resultado eh " + resultado);
+            
+            scanner.close();
+        }
+    }
+    ```
+    
+
+3.Faça um sistema que peça 2 notas para o usuario some as duas e divida por 2;
+
+- resolução
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class CalculoMedia {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.println("Digite a primeira nota:");
+            double nota1 = scanner.nextDouble();
+            
+            System.out.println("Digite a segunda nota:");
+            double nota2 = scanner.nextDouble();
+            
+            double media = (nota1 + nota2) / 2;
+            
+            System.out.println("A media das duas notas eh: " + media);
+            
+            scanner.close();
+        }
+    }
+    ```
+    
+
+4.Faça um sistema que peça 4 notas divida por 4;
+
+- resolução
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class MediaNotas {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+           
+            System.out.println("Digite a nota:");
+            double nota1 = scanner.nextDouble();
+            
+            System.out.println("Digite a nota:");
+            double nota2 = scanner.nextDouble();
+            
+            System.out.println("Digite a= nota:");
+            double nota3 = scanner.nextDouble();
+            
+            System.out.println("Digite a nota:");
+            double nota4 = scanner.nextDouble();
+            
+           
+            double media = (nota1 + nota2 + nota3 + nota4) / 4;
+            
+            
+            System.out.println("A media das notas eh: " + media);
+            
+            scanner.close();
+        }
+    }
+    ```
+    
+
+5.Faça um sistema que o usuario vai informar 2 numeros e o sistema deve retornar a soma, subtração, divisão e multiplicação dos dois numeros.
+
+- resolução
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class OperacoesAritmeticas {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.println("Digite o primeiro numero:");
+            double numero1 = scanner.nextDouble();
+            
+            System.out.println("Digite o segundo numero:");
+            double numero2 = scanner.nextDouble();
+            
+            
+            double soma = numero1 + numero2;
+            double subtracao = numero1 - numero2;
+            double divisao = numero1 / numero2;
+            double multiplicacao = numero1 * numero2;
+            
+           
+            System.out.println("Soma: " + soma);
+            System.out.println("Subtracao: " + subtracao);
+            System.out.println("Divisao: " + divisao);
+            System.out.println("Multiplicacao: " + multiplicacao);
+            
+            scanner.close();
+        }
+    }
+    ```
+    
+
+6.Faça um sistema que pergunte para o usuario o nome, preço de produto, após isso pergunte qual o percentual de desconto, a saida precisa ser o nome do produto e o novo preço.
+
+- resolução
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class CalculoDesconto {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+            
+            System.out.println("Digite o nome :");
+            String nomeProduto = scanner.nextLine();
+            
+            
+            System.out.println("Digite o preco :");
+            double precoProduto = scanner.nextDouble();
+            
+            
+            System.out.println("Digite o percentual de desconto:");
+            double percentualDesconto = scanner.nextDouble();
+            
+           
+            double desconto = (percentualDesconto / 100) * precoProduto;
+            
+            
+            double novoPreco = precoProduto - desconto;
+            
+           
+            System.out.println("Nome do produto: " + nomeProduto);
+            System.out.println("Preco com desconto: " + novoPreco);
+            
+            scanner.close();
+        }
+    }
+    ```
+    
+
+7.Faça um sistema que peça 4 notas divida por 4 e peça se o aluno foi aprovado
+
+- resolução
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class MediaNotas {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+           
+            System.out.println("Digite a nota:");
+            double nota1 = scanner.nextDouble();
+            
+            System.out.println("Digite a nota:");
+            double nota2 = scanner.nextDouble();
+            
+            System.out.println("Digite a= nota:");
+            double nota3 = scanner.nextDouble();
+            
+            System.out.println("Digite a nota:");
+            double nota4 = scanner.nextDouble();
+            
+             scanner.close();
+           
+            double media = (nota1 + nota2 + nota3 + nota4) / 4;
+            
+            System.out.println("A media das notas eh: " + media);
+            
+             if(media >= 6 ){
+                System.out.println("Aprovado");
+            }else{
+                System.out.println("Reprovado");
+            }
+            }
+            
+            
+    }
+
+# ATIVIDADE 04 - IF-ELSE
+
+- **Verificação de idade:**
+Escreva um programa Java que pede ao usuário para inserir sua idade. O programa deve então verificar se a idade é maior ou igual a 18. Se for, deve imprimir "Você é maior de idade". Caso contrário, deve imprimir "Você é menor de idade".
+    
+    ```jsx
+    package  main;
+    
+    import java.util.Scanner;
+    
+    public class main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+    
+            System.out.print("Por favor, insira sua idade: ");
+            int idade = scanner.nextInt();
+    
+            if (idade >= 18) {
+                System.out.println("Você é maior de idade.");
+            } else {
+                System.out.println("Você é menor de idade.");
+            }
+    
+            scanner.close();
+        }
+    }
+    ```
+    
+- **Verificação de número par ou ímpar:**
+Escreva um programa Java que solicita ao usuário inserir um número inteiro. O programa deve então verificar se o número é par ou ímpar e imprimir a mensagem correspondente.
+    
+    ```jsx
+    package  main;
+    
+    import java.util.Scanner;
+    
+    public class main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.print("Por favor, insira um número inteiro: ");
+            int numero = scanner.nextInt();
+            
+            if (numero % 2 == 0) {
+                System.out.println("O número inserido é par.");
+            } else {
+                System.out.println("O número inserido é ímpar.");
+            }
+    
+            scanner.close();
+        }
+    }
+    ```
+    
+- **Verificação de login:**
+Crie um programa Java que pede ao usuário para inserir seu nome de usuário e senha. Se o nome de usuário for "usuario" e a senha for "senha123", o programa deve imprimir "Login bem-sucedido". Caso contrário, deve imprimir "Nome de usuário ou senha incorretos".
+    
+    ```jsx
+    package  main;
+    
+    import java.util.Scanner;
+    
+    public class main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.print("Insira o nome de usuário: ");
+            String nomeUsuario = scanner.nextLine();
+            
+            System.out.print("Insira a senha: ");
+            String senha = scanner.nextLine();
+            
+            if (nomeUsuario.equals("usuario") && senha.equals("senha123")) {
+                System.out.println("Login bem-sucedido.");
+            } else {
+                System.out.println("Nome de usuário ou senha incorretos.");
+            }
+    
+            scanner.close();
+        }
+    }
+    ```
+    
+- **Verificação de maior número:**
+Escreva um programa Java que solicita ao usuário inserir dois números inteiros. O programa deve então determinar qual dos dois números é o maior e imprimir essa informação.
+    
+    ```jsx
+    package  main;
+    
+    import java.util.Scanner;
+    
+    public class main {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            
+            System.out.print("Insira o primeiro número inteiro: ");
+            int numero1 = scanner.nextInt();
+            
+            System.out.print("Insira o segundo número inteiro: ");
+            int numero2 = scanner.nextInt();
+            
+            int maiorNumero = numero1 > numero2 ? numero1 : numero2;
+            
+            System.out.println("O maior número inserido é: " + maiorNumero);
+    
+            scanner.close();
+        }
+    }
+
+# ATIVIDADE 05 - FOR-IF-OBJETOS
+
+- Escreva um programa que imprima os números de 1 a 50. Se o número for divisível por 3, imprima "Fizz", se for divisível por 5, imprima "Buzz". Se for divisível por ambos, imprima "FizzBuzz”;
+    
+    ```jsx
+    public class FizzBuzz {
+        public static void main(String[] args) {
+            for (int i = 1; i <= 50; i++) {
+                if (i % 3 == 0 && i % 5 == 0) {
+                    System.out.println("FizzBuzz");
+                } else if (i % 3 == 0) {
+                    System.out.println("Fizz");
+                } else if (i % 5 == 0) {
+                    System.out.println("Buzz");
+                } else {
+                    System.out.println(i);
+                }
+            }
+        }
+    }
+    ```
+    
+- **Programa em Java dos patinhos da Xuxa**
+    
+    Xuxa, a rainha dos baixinhos, criou uma música que tem o segunte formato:
+    
+    *n patinhos foram passearAlém das montanhasPara brincarA mamãe gritou: Quá, quá, quá, quá*
+    
+    *Mas só n-1 patinhos voltaram de lá*
+    
+    .
+    
+    Que se repete até nenhum patinho voltar de lá.
+    
+    Ao final, todos os patinhos voltam:
+    
+    *A mamãe patinha foi procurarAlém das montanhasNa beira do marA mamãe gritou: Quá, quá, quá, quáE os n patinhos voltaram de lá.*
+    
+    - Crie um programa em Java que recebe um inteiro positivo do usuário e exibe a música inteira na tela, onde o inteiro recebido representa o número inicial *n* de patinhos que foram passear.
+        
+        ```jsx
+        package NewProject;
+        
+        import java.util.Scanner;
+        
+        public class Main {
+            public static void main(String[] args) {
+                Scanner scanner = new Scanner(System.in);
+        
+                System.out.println("Digite o número inicial de patinhos:");
+                int numeroDePatinhos = scanner.nextInt();
+        
+                if (numeroDePatinhos <= 0) {
+                    System.out.println("Por favor, digite um número positivo.");
+                    return;
+                }
+                for (int i = numeroDePatinhos; i >= 1; i--) {
+                    if (i > 1) {
+                        System.out.println(i + " patinhos foram passear");
+                        System.out.println("Além das montanhas");
+                        System.out.println("Para brincar");
+                        System.out.println("A mamãe gritou: Quá, quá, quá, quá");
+                        System.out.println();
+                        System.out.println("Mas só " + (i - 1) + " patinhos voltaram de lá");
+                        System.out.println();
+                    } else {
+                        System.out.println("A mamãe patinha foi procurar");
+                        System.out.println("Além das montanhas");
+                        System.out.println("Na beira do mar");
+                        System.out.println("A mamãe gritou: Quá, quá, quá, quá");
+                        System.out.println("E os " + numeroDePatinhos + " patinhos voltaram de lá.");
+                    }
+                }
+        
+                scanner.close();
+            }
+        }
+        ```
+        
+- Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e
+mostre-a expressa em dias. Leve em consideração o ano com 365 dias e o mês com 30.
+(Ex: 3 anos, 2 meses e 15 dias = 1170 dias.)
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class Age {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+    
+            System.out.println("Digite sua idade em anos");
+            int years = scanner.nextInt();
+    
+            System.out.println("Digite sua idade em meses");
+            int months = scanner.nextInt();
+    
+            System.out.println("Digite sua idade em dias");
+            int days = scanner.nextInt();
+    
+            int totalDays = (years * 365) + (months * 30) + days;
+    
+            System.out.println(years + " Anos " + months + " Meses e " + days + " Dias são: " + totalDays + " Dias");
+    
+            scanner.close();
+        }
+    }
+    ```
+    
+- Faça um algoritmo que leia 20 números e, ao final, escreva quantos estão entre 0 e
+100, quantos estão entre 101 e 200 e quantos são maiores de 200
+    
+    ```jsx
+    import java.util.Scanner;
+    
+    public class ContarNumeros {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+    
+            int conta0a100 = 0;
+            int conta101a200 = 0;
+            int contaMaior200 = 0;
+    
+            for(int i = 0; i < 20; i++) {
+                System.out.println("Digite o número " + (i + 1) + " :");
+                int numero = scanner.nextInt();
+    
+                if (numero >= 0 && numero <= 100) {
+                    conta0a100++;
+                } else if (numero >= 101 && numero <= 200) {
+                    conta101a200++;
+                } else {
+                    contaMaior200++;
+                }
+            }
+            System.out.println("Quantidade de números entre 0 e 100: " + conta0a100);
+            System.out.println("Quantidade de números entre 101 e 200: " + conta101a200);
+            System.out.println("Quantidade de números maiores do que 200: " + contaMaior200);
+    
+            scanner.close();
+            }
+        }
+    ```
+    
+- Crie um Objeto chamado Carro, definina quais são as suas caracteristicas e metodos e crie uma outra classe Chamada CarroTeste para criar o objeto e testar.
+    
+    ```jsx
+    public class Carro {
+    
+        public String nome;
+        public int ano;
+        public int velocidade;
+    
+        public void exibirInformacoes() {
+            System.out.println("Nome: " + nome);
+            System.out.println("Ano: " + ano);
+            System.out.println("Velocidade: " + ano);
+        }
+    }
+    ```
+    
+- Crie uma classe Java chamada **`ContaBancaria`** que represente uma conta bancária simples. A classe deve ter os seguintes atributos privados:
+    - **`saldo`**, do tipo **`double`**, representando o saldo atual da conta.
+    - **`numeroConta`**, do tipo **`String`**, representando o número da conta bancária.
+    
+    A classe **`ContaBancaria`** deve ter os seguintes métodos públicos:
+    
+    - Um método chamado **`depositar(double valor)`** que recebe um valor como parâmetro e adiciona esse valor ao saldo da conta.
+    - Um método chamado **`sacar(double valor)`** que recebe um valor como parâmetro e subtrai esse valor do saldo da conta, desde que haja saldo suficiente. Caso contrário, deve exibir uma mensagem de erro.
+    - Um método chamado **`consultarSaldo()`** que retorna o saldo atual da conta.
+        
+        ```jsx
+        public class ContaBancaria {
+            private double saldo;
+            private String numeroConta;
+            
+            public ContaBancaria(String numeroConta) {
+                this.numeroConta = numeroConta;
+                this.saldo = 0.0; // Inicializa o saldo como zero
+            }
+            public void depositar(double valor) {
+                if (valor > 0) {
+                    saldo += valor;
+                    System.out.println("Depósito de R$" + valor + " realizado com sucesso.");
+                } else {
+                    System.out.println("Valor inválido para depósito.");
+                }
+            }
+            public void sacar(double valor) {
+                if (valor > 0 && saldo >= valor) {
+                    saldo -= valor;
+                    System.out.println("Saque de R$" + valor + " realizado com sucesso.");
+                } else {
+                    System.out.println("Saldo insuficiente para realizar o saque ou valor inválido.");
+                }
+            }
+            public double consultarSaldo() {
+                return saldo;
+            }
+        }
+        ```
+        
+- Crie uma classe Java chamada **`Produto`** que represente um produto em um sistema de estoque. A classe deve ter os seguintes atributos privados:
+    - **`codigo`**, do tipo **`int`**, representando o código do produto.
+    - **`descricao`**, do tipo **`String`**, representando a descrição do produto.
+    - **`preco`**, do tipo **`double`**, representando o preço unitário do produto.
+    - **`quantidadeEmEstoque`**, do tipo **`int`**, representando a quantidade disponível em estoque do produto.
+    
+    A classe **`Produto`** deve ter os seguintes métodos públicos:
+    
+    - Um construtor que recebe como parâmetros o código, a descrição, o preço e a quantidade inicial em estoque do produto.
+    - Métodos de acesso (getters) para todos os atributos da classe.
+    - Um método chamado **`adicionarEstoque(int quantidade)`** que recebe uma quantidade como parâmetro e adiciona essa quantidade ao estoque do produto.
+    - Um método chamado **`removerEstoque(int quantidade)`** que recebe uma quantidade como parâmetro e remove essa quantidade do estoque do produto, desde que haja estoque suficiente. Caso contrário, deve exibir uma mensagem de erro.
+        
+        ```jsx
+        public class Produto {
+            private int codigo;
+            private String descricao;
+            private double preco;
+            private int quantidadeEmEstoque;
+           
+            public Produto(int codigo, String descricao, double preco, int quantidadeEmEstoque) {
+                this.codigo = codigo;
+                this.descricao = descricao;
+                this.preco = preco;
+                this.quantidadeEmEstoque = quantidadeEmEstoque;
+            }
+            
+            public int getCodigo() {
+                return codigo;
+            }
+            
+            public String getDescricao() {
+                return descricao;
+            }
+            
+            public double getPreco() {
+                return preco;
+            }
+            
+            public int getQuantidadeEmEstoque() {
+                return quantidadeEmEstoque;
+            }
+            
+            public void adicionarEstoque(int quantidade) {
+                if (quantidade > 0) {
+                    quantidadeEmEstoque += quantidade;
+                    System.out.println("Estoque adicionado: " + quantidade + " unidades.");
+                } else {
+                    System.out.println("Quantidade inválida para adicionar ao estoque.");
+                }
+            }
+            
+            public void removerEstoque(int quantidade) {
+                if (quantidade > 0 && quantidade <= quantidadeEmEstoque) {
+                    quantidadeEmEstoque -= quantidade;
+                    System.out.println("Estoque removido: " + quantidade + " unidades.");
+                } else {
+                    System.out.println("Quantidade inválida para remover do estoque ou estoque insuficiente.");
+                }
+            }
+        }
+        ```
+        # ATIVIDADE REVISÃO
+
+## ETAPA 1 - TEORICA
+
+- 1- O que é orientação a objetos e quais são seus princípios fundamentais?
+    
+    Orientação a objetos é um modelo de programação que organiza o software em objetos. Seus princípios são abstração, encapsulamento, herança e polimorfismo, essenciais para criar sistemas flexíveis e fáceis de manter
+    
+- 2-Quais são as vantagens da orientação a objetos em comparação com paradigmas de programação procedural?
+    
+    A orientação a objetos oferece várias vantagens em comparação com paradigmas de programação procedural, como a Reutilização do código; Encapsulamento; Abstração; Polimorfismo; Facilidade de manutenção; Desenvolvimento Colaborativo
+    
+- 3- Explique o conceito de encapsulamento e como ele é implementado em linguagens de programação orientadas a objetos.
+    
+    O encapsulamento em programação orientada a objetos esconde os detalhes internos de um objeto e permite acesso apenas por meio de uma interface clara e definida. Isso é alcançado com classes, onde os atributos são frequentemente privados e acessados por métodos públicos. Essa prática promove a modularidade, facilita a manutenção e reforça a segurança do código
+    
+- 4- Explique o conceito de classe e objeto em programação orientada a objetos, e como eles estão relacionados.
+    
+    Em programação orientada a objetos, uma classe é um modelo que define a estrutura e o comportamento de objetos relacionados. Ela contém atributos (variáveis) e métodos (funções). Um objeto é uma instância específica de uma classe, com valores específicos para seus atributos. Classes servem como blueprints para a criação de objetos, organizando a lógica do programa e permitindo a reutilização de código.
+    
+- 5- Qual é a importância dos construtores e métodos em uma classe em programação orientada a objetos?
+    
+    Construtores e métodos são essenciais em uma classe na programação orientada a objetos. Os construtores inicializam objetos quando são criados, estabelecendo seu estado inicial. Os métodos encapsulam o comportamento do objeto, oferecendo uma interface para interagir com ele. Eles promovem a reutilização de código, facilitam a manutenção e permitem extensibilidade e polimorfismo. Em suma, construtores e métodos são fundamentais para organizar e manipular objetos de forma eficiente e flexível.
+    
+- 6- Quais são as diferenças entre métodos estáticos e métodos de instância em uma classe?
+    
+    Métodos de instância estão ligados a objetos específicos da classe, acessando e modificando seu estado interno, e podem chamar outros métodos de instância e estáticos. Métodos estáticos pertencem à classe, não aos objetos individuais, não têm acesso aos atributos de instância e só podem chamar outros membros estáticos da classe. Eles são úteis para funcionalidades independentes do estado do objeto.
+    
+- 7- Como são tratados os conceitos de acoplamento e coesão na orientação a objetos e por que são importantes?
+    
+    Acoplamento refere-se à interdependência entre partes do código, com baixo acoplamento indicando independência e modularidade. Coesão refere-se ao grau em que os elementos de um módulo estão relacionados, com alta coesão indicando foco e clareza de responsabilidade. Baixo acoplamento e alta coesão são importantes para facilitar a manutenção, a extensibilidade e a compreensão do código.
+    
+- 8- Qual é o objetivo do metodo main ?
+    
+    Ser o ponto de entrada para a execução de um programa Java. Seu objetivo principal é iniciar a execução do programa, servindo como o ponto de partida para o sistema operacional ou ambiente de execução do Java.
+    
+- 9- Como ocorre a passagem de parâmetros em métodos de uma classe em programação orientada a objetos?
+    
+    Na programação orientada a objetos, a passagem de parâmetros em métodos de uma classe geralmente ocorre de duas formas principais: por valor e por referência.
+    
+- 10- Qual é a diferença entre os modificadores de acesso "public", "private" e "protected" em uma classe?
+    
+    Os modificadores de acesso em uma classe controlam a visibilidade dos seus membros. "Public" permite acesso irrestrito, "private" restringe o acesso à própria classe e "protected" permite acesso a subclasses e classes no mesmo pacote. Esses modificadores são essenciais para implementar encapsulamento, herança e modularidade em um programa orientado a objetos
+    
+- 11-Qual é a importância da palavra-chave "this" em programação orientada a objetos e como ela é utilizada?
+    
+    A palavra-chave "this" é utilizada na programação orientada a objetos para se referir ao próprio objeto em contexto dentro de uma classe. Ela é importante para evitar ambiguidades entre variáveis locais e membros da classe, bem como para passar uma referência do próprio objeto como argumento em métodos ou construtores, facilitando encadeamento de chamadas e a clareza do código.
+    
+
+## ETAPA 2 - PRÁTICA
+
+- 1 - Você deve criar uma classe em Java para representar um carro. A classe deve conter atributos privados para armazenar a marca, o modelo, o ano e a cor do carro. Além disso, você deve implementar métodos públicos para acessar e modificar esses atributos, garantindo o encapsulamento da classe. Por fim, crie um método para exibir as informações do carro.
+- Após criar a classe, crie objetos dessa classe e teste os métodos implementados, modificando e exibindo as informações dos carros criados.
+- Lembre-se de utilizar o encapsulamento adequado para proteger os atributos da classe e garantir o acesso seguro aos mesmos através dos métodos públicos.
+ RESOLUÇÃO
+   
+public class Main {
+    public static void main(String[] args) {
+        Carro carro1 = new Carro("Toyota", "Corolla", 2022, "Prata");
+        Carro carro2 = new Carro("Ford", "Mustang", 2021, "Vermelho");
+
+        System.out.println("Informações do Carro 1:");
+        carro1.exibirInformacoes();
+        System.out.println();
+
+        System.out.println("Informações do Carro 2:");
+        carro2.exibirInformacoes();
+        System.out.println();
+
+        carro1.setAno(2023);
+        carro1.setCor("Azul");
+
+        System.out.println("Informações atualizadas do Carro 1:");
+        carro1.exibirInformacoes();
+    }
+}
+
+
+public class Carro {
+    private String marca;
+    private String modelo;
+    private int ano;
+    private String cor;
+
+    public Carro(String marca, String modelo, int ano, String cor) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+        this.cor = cor;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setMarca(String marca) {
+        this.marca = marca;
+    }
+
+2 - Desenvolva uma classe em Java para representar um objeto do tipo Produto. Essa classe deve possuir atributos privados para armazenar o nome, o preço e a quantidade em estoque do produto. Implemente métodos públicos para acessar e modificar esses atributos, garantindo o encapsulamento adequado da classe.
+
+Após criar a classe Produto, crie objetos dessa classe e teste os métodos implementados, modificando e exibindo as informações dos produtos criados.
+
+Certifique-se de utilizar o encapsulamento de forma correta, protegendo os atributos da classe e garantindo o acesso seguro a eles através dos métodos públicos disponibilizados.
+
+RESOLUÇÃO
+public class Main {
+    public static void main(String[] args) {
+        Produto produto1 = new Produto("Camiseta", 29.99, 50);
+        Produto produto2 = new Produto("Tênis", 99.99, 20);
+
+        System.out.println("Informações do Produto 1:");
+        produto1.exibirInformacoes();
+        System.out.println();
+
+        System.out.println("Informações do Produto 2:");
+        produto2.exibirInformacoes();
+        System.out.println();
+
+        produto1.setPreco(39.99);
+        produto1.setQuantidadeEmEstoque(40);
+
+        System.out.println("Informações atualizadas do Produto 1:");
+        produto1.exibirInformacoes();
+    }
+}
+
+public class Produto {
+    private String nome;
+    private double preco;
+    private int quantidadeEmEstoque;
+
+    public Produto(String nome, double preco, int quantidadeEmEstoque) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public int getQuantidadeEmEstoque() {
+        return quantidadeEmEstoque;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Preço: R$" + preco);
+        System.out.println("Quantidade em estoque: " + quantidadeEmEstoque);
+    }
+}
+
+3 - Você deve implementar um programa em Java para gerenciar o estoque de uma loja. Para isso, crie uma classe **`Produto`** que representará os produtos disponíveis na loja. Esta classe deve possuir atributos privados para armazenar o nome, o preço e a quantidade em estoque do produto.
+
+Em seguida, implemente métodos públicos na classe **`Produto`** para acessar e modificar esses atributos, garantindo o encapsulamento adequado da classe.
+
+Após criar a classe **`Produto`**, desenvolva um programa principal que permita ao usuário realizar as seguintes operações:
+
+1. Adicionar um novo produto ao estoque, fornecendo o nome, o preço e a quantidade em estoque.
+2. Atualizar o preço ou a quantidade em estoque de um produto existente.
+3. Exibir os detalhes de um produto específico, incluindo seu nome, preço e quantidade em estoque.
+
+Certifique-se de utilizar o encapsulamento de forma correta na classe **`Produto`**, protegendo os atributos da classe e garantindo o acesso seguro a eles através dos métodos públicos disponibilizados.
+
+RESOLUÇÃO
+
+import java.util.Scanner;
+
+public class GerenciadorDeEstoque {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Produto[] estoque = new Produto[100]; // Capacidade máxima do estoque
+
+        int opcao;
+        int contadorProdutos = 0;
+
+        do {
+            System.out.println("\n=== MENU ===");
+            System.out.println("1. Adicionar novo produto");
+            System.out.println("2. Atualizar preço ou quantidade em estoque de um produto");
+            System.out.println("3. Exibir detalhes de um produto");
+            System.out.println("4. Sair");
+            System.out.print("Escolha uma opção: ");
+            opcao = scanner.nextInt();
+
+            switch (opcao) {
+                case 1:
+                    scanner.nextLine(); // Consumir a quebra de linha
+                    System.out.print("Nome do produto: ");
+                    String nome = scanner.nextLine();
+                    System.out.print("Preço: ");
+                    double preco = scanner.nextDouble();
+                    System.out.print("Quantidade em estoque: ");
+                    int quantidadeEmEstoque = scanner.nextInt();
+
+                    estoque[contadorProdutos] = new Produto(nome, preco, quantidadeEmEstoque);
+                    contadorProdutos++;
+                    System.out.println("Produto adicionado com sucesso!");
+                    break;
+
+                case 2:
+                    if (contadorProdutos == 0) {
+                        System.out.println("Nenhum produto cadastrado!");
+                        break;
+                    }
+
+                    System.out.print("Digite o índice do produto que deseja atualizar: ");
+                    int indice = scanner.nextInt();
+                    if (indice < 0 || indice >= contadorProdutos) {
+                        System.out.println("Índice inválido!");
+                        break;
+                    }
+
+                    System.out.println("1. Atualizar preço");
+                    System.out.println("2. Atualizar quantidade em estoque");
+                    System.out.print("Escolha uma opção: ");
+                    int escolha = scanner.nextInt();
+
+                    if (escolha == 1) {
+                        System.out.print("Novo preço: ");
+                        double novoPreco = scanner.nextDouble();
+                        estoque[indice].setPreco(novoPreco);
+                        System.out.println("Preço atualizado com sucesso!");
+                    } else if (escolha == 2) {
+                        System.out.print("Nova quantidade em estoque: ");
+                        int novaQuantidade = scanner.nextInt();
+                        estoque[indice].setQuantidadeEmEstoque(novaQuantidade);
+                        System.out.println("Quantidade em estoque atualizada com sucesso!");
+                    } else {
+                        System.out.println("Opção inválida!");
+                    }
+                    break;
+
+                case 3:
+                    if (contadorProdutos == 0) {
+                        System.out.println("Nenhum produto cadastrado!");
+                        break;
+                    }
+
+                    System.out.print("Digite o índice do produto que deseja exibir: ");
+                    int indiceExibicao = scanner.nextInt();
+                    if (indiceExibicao < 0 || indiceExibicao >= contadorProdutos) {
+                        System.out.println("Índice inválido!");
+                        break;
+                    }
+
+                    Produto produtoExibicao = estoque[indiceExibicao];
+                    System.out.println("\nDetalhes do Produto:");
+                    System.out.println("Nome: " + produtoExibicao.getNome());
+                    System.out.println("Preço: R$" + produtoExibicao.getPreco());
+                    System.out.println("Quantidade em estoque: " + produtoExibicao.getQuantidadeEmEstoque());
+                    break;
+
+                case 4:
+                    System.out.println("Saindo...");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida!");
+            }
+        } while (opcao != 4);
+
+        scanner.close();
+    }
+}
+
+public class Produto {
+    private String nome;
+    private double preco;
+    private int quantidadeEmEstoque;
+
+    public Produto(String nome, double preco, int quantidadeEmEstoque) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public int getQuantidadeEmEstoque() {
+        return quantidadeEmEstoque;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+}
+
+4 - **Exercício para Praticar Método Construtor em Java:**
+
+Você deve criar uma classe **`Circulo`** que representará um círculo geométrico. Essa classe deve conter os seguintes atributos privados:
+
+- Raio (do tipo double)
+- Cor (do tipo String)
+
+Implemente um método construtor na classe **`Circulo`** que aceite dois parâmetros: o raio e a cor do círculo. O método construtor deve inicializar os atributos correspondentes com os valores fornecidos como parâmetros.
+
+Após criar a classe **`Circulo`**, desenvolva um programa principal que permita ao usuário criar objetos dessa classe e exibir suas características.
+
+Certifique-se de que o método construtor está sendo utilizado corretamente para inicializar os objetos da classe **`Circulo`** com os valores fornecidos pelo usuário.
+
+Dica: Você pode incluir métodos adicionais na classe **`Circulo`** para calcular a área ou o perímetro do círculo, se desejar.
+RESOLUÇÃO
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o raio do círculo: ");
+        double raio = scanner.nextDouble();
+        scanner.nextLine();
+        System.out.print("Digite a cor do círculo: ");
+        String cor = scanner.nextLine();
+
+        Circulo circulo = new Circulo(raio, cor);
+        circulo.exibirCaracteristicas();
+
+        scanner.close();
+    }
+}
+
+public class Circulo {
+    private double raio;
+    private String cor;
+
+    public Circulo(double raio, String cor) {
+        this.raio = raio;
+        this.cor = cor;
+    }
+
+    public double calcularArea() {
+        return Math.PI * Math.pow(raio, 2);
+    }
+
+    public double calcularPerimetro() {
+        return 2 * Math.PI * raio;
+    }
+
+    public void exibirCaracteristicas() {
+        System.out.println("Círculo com raio " + raio + " e cor " + cor);
+        System.out.println("Área: " + calcularArea());
+        System.out.println("Perímetro: " + calcularPerimetro());
+    }
+}
+
+
+5 - **Exercício para Praticar Múltiplos Construtores em Java:**
+
+Crie uma classe **`Produto`** que representará um produto em uma loja. Essa classe deve conter os seguintes atributos privados:
+
+- Nome (do tipo String)
+- Preço (do tipo double)
+- Quantidade em Estoque (do tipo int)
+
+Implemente múltiplos métodos construtores na classe **`Produto`** para permitir diferentes maneiras de inicializar um objeto **`Produto`**. Os métodos construtores devem ser os seguintes:
+
+1. Um construtor que aceita apenas o nome do produto e inicializa os demais atributos com valores padrão (preço = 0.0 e quantidade em estoque = 0).
+2. Um construtor que aceita o nome e o preço do produto, inicializando a quantidade em estoque com o valor padrão (0).
+3. Um construtor que aceita o nome, o preço e a quantidade em estoque do produto.
+
+Após criar a classe **`Produto`**, desenvolva um programa principal que permita ao usuário criar objetos dessa classe utilizando os diferentes construtores implementados e exibir as características dos produtos criados.
+
+Certifique-se de que os métodos construtores estão sendo utilizados corretamente para inicializar os objetos da classe **`Produto`** com os valores fornecidos pelo usuário.
+RESOLUÇÃO
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Criando produtos utilizando diferentes construtores:");
+
+        Produto produto1 = new Produto("Produto A");
+        System.out.println("\nProduto 1:");
+        produto1.exibirCaracteristicas();
+
+        System.out.print("\nDigite o nome do Produto B: ");
+        String nomeB = scanner.nextLine();
+        System.out.print("Digite o preço do Produto B: ");
+        double precoB = scanner.nextDouble();
+        Produto produto2 = new Produto(nomeB, precoB);
+        System.out.println("\nProduto 2:");
+        produto2.exibirCaracteristicas();
+
+        scanner.nextLine(); // Limpar o buffer do teclado
+        System.out.print("\nDigite o nome do Produto C: ");
+        String nomeC = scanner.nextLine();
+        System.out.print("Digite o preço do Produto C: ");
+        double precoC = scanner.nextDouble();
+        System.out.print("Digite a quantidade em estoque do Produto C: ");
+        int quantidadeC = scanner.nextInt();
+        Produto produto3 = new Produto(nomeC, precoC, quantidadeC);
+        System.out.println("\nProduto 3:");
+        produto3.exibirCaracteristicas();
+
+        scanner.close();
+    }
+}
+
+
+import java.util.Scanner;
+
+class Produto {
+    private String nome;
+    private double preco;
+    private int quantidadeEmEstoque;
+
+    public Produto(String nome) {
+        this.nome = nome;
+        this.preco = 0.0;
+        this.quantidadeEmEstoque = 0;
+    }
+
+    public Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEmEstoque = 0;
+    }
+
+    public Produto(String nome, double preco, int quantidadeEmEstoque) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidadeEmEstoque = quantidadeEmEstoque;
+    }
+
+    public void exibirCaracteristicas() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Preço: " + preco);
+        System.out.println("Quantidade em estoque: " + quantidadeEmEstoque);
+    }
+}
