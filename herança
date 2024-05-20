@@ -1,0 +1,14 @@
+INTERFACE
+public interface Saque {
+    boolean saque(double valor);
+}
+public class ContaCorrente extends Conta implements Saque {
+    public boolean saque(double valor) {
+        double valorComTaxa = valor + 5;
+        if (valorComTaxa <= saldo) {
+            saldo -= valorComTaxa;
+            return true;
+        }
+        return false;
+    }
+}
