@@ -1,0 +1,32 @@
+Teste dos Códigos
+import org.junit.Test;
+import static org.junit.Assert.*;
+
+public class ContaCorrenteTest {
+    public void testDeposito() {
+        ContaCorrente conta = new ContaCorrente();
+        conta.depositar(1000d);
+        assertEquals(1000, conta.obterSaldo(), 0);
+    }
+    public void testSaqueSucesso() {
+        ContaCorrente conta = new ContaCorrente();
+        conta.depositar(3000d);
+        boolean validacao = conta.saque(500d);
+        assertTrue(validacao);
+        assertEquals(2495, conta.obterSaldo(), 0);
+    }
+    public void testSaqueInvalido() {
+        ContaCorrente conta = new ContaCorrente();
+        conta.depositar(1000d);
+        boolean validacao = conta.saque(1500d);
+        assertFalse(validacao);
+        assertEquals(1000, conta.obterSaldo(), 0);
+    }
+    public void testSaqueMaiorSaldoContaCorrente(){
+        ContaCorrente conta = new ContaCorrente();
+        conta.depositar(3000d);
+        boolean validacao = conta.saque(4500d);
+        assertFalse(validacao);
+        assertEquals(3000, conta.obterSaldo(), 0);
+    }
+}
